@@ -21,6 +21,8 @@ footer{
     position:absolute;
     width: 100%;
     bottom: 0;
+}
+
 .hero {
     height: 251px;
     background-image: url(../img/herogif.gif);
@@ -110,3 +112,62 @@ hr {
 }
 
 
+.cateText h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+
+.cateText p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+
+
+.container-fluid  {
+    background-color: black;
+    display: flex;
+    padding: 1%;
+}
+
+.container {
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.img-fluid {
+    padding: .1%;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
