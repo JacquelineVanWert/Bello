@@ -17,8 +17,8 @@
 }
 
 .hero {
-    height: 564px;
-    background-color: black;
+    height: 251px;
+    background-image: url(../img/herogif.gif);
 }
 
 .heroText {
@@ -126,7 +126,7 @@
 
 .cateText {
     color: white;
-    margin-top: 296px;
+    margin-top: 280px;
 }
 
 .cateText h1 {
@@ -140,4 +140,51 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 0.7rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+.advert {
+    margin: auto;
+    background-color: #0F0E0E;
+    height: 500px;
+    width: 1600px;
+    box-shadow: 2px 6px 29px 13px #00000073;
+}
+
+.adText {
+    color: white;
+    padding-left: 92px;
+    padding-top: 177px;
+    width: 693px;
+}
+
+.adText h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+hr {
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 517px;
+}
+
+.adText p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.name p{
+    justify-content: flex-end;
+    font-style: italic;
+}
+
+.adPic{
+    background-image: url(../img/Group\ 28.png);
+    height: 535px;
+    width: 632px;
+    background-size: cover;
+}
+
