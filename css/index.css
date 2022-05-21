@@ -16,118 +16,101 @@
     color: rgba(0,0,0,.7);
 }
 
-.hero {
-    height: 564px;
+footer{
     background-color: black;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
 }
 
-.heroText {
+.hero {
+    height: 251px;
+    background-image: url(../img/herogif.gif);
+}
+body{
+    background-image: url(../img/Rectangle\ 16.png);
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.whiteColor{
     color: white;
-    font-size: 2.5rem;
-    width: 415px;
-    margin-right: 291px;
+}
+.btn{
+    color: white;
+    background-color: #0F0E0E;
+    margin-top: 280px;
+}
+.login{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    min-height: 100%;
 }
 
-.heroText p {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 186px;
+hr{
+    border-top: 1px solid white;
+    width: 300px;
+}
+.emailYes{
+    font-size: x-large;
 }
 
-.heroButton {
-    font-size: 2rem;
-    background-color: #484848;
-    height: 62px;
-    width: 280px;
+
+.cateText p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.text p{
+.advert {
+    margin: auto;
+    background-color: #0F0E0E;
+    height: 500px;
+    width: 1600px;
+    box-shadow: 2px 6px 29px 13px #00000073;
+}
+
+.adText {
+    color: white;
+    padding-left: 92px;
+    padding-top: 177px;
+    width: 693px;
+}
+
+.adText h1 {
     font-family: 'Abhaya Libre', serif;
     font-weight: 600;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 3rem;
 }
 
-.first {
-    padding-top: 24px;
+hr {
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 517px;
 }
 
-.hairPic{
-    background-image: url(../img/hair2.png);
-    width: 253px;
-    height: 425px;
+.adText p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.name p{
+    justify-content: flex-end;
+    font-style: italic;
+}
+
+.adPic{
+    background-image: url(../img/Group\ 28.png);
+    height: 535px;
+    width: 632px;
     background-size: cover;
 }
 
-.hairPic:hover{
-    background-image: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-     url(../img/hair2.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.makeupPic{
-    background-image: url(../img/makeup1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.makeupPic:hover{
-    background-image: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-    url(../img/makeup1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.skinPic{
-    background-image: url(../img/skin1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.skinPic:hover{
-    background-image: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-    url(../img/skin1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.nailsPic{
-    background-image: url(../img/nails1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.nailsPic:hover{
-    background-image: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
-    url(../img/nails1.png);
-    width: 253px;
-    height: 425px;
-    background-size: cover;
-}
-
-.categories {
-    justify-content: space-between;
-    padding-top: 44px;
-    padding-bottom: 95px;
-}
-
-.cateText {
-    color: white;
-    margin-top: 296px;
-}
 
 .cateText h1 {
     font-family: 'Abhaya Libre', serif;
