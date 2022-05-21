@@ -5,7 +5,22 @@
 } */
 .btn-primary{
     background-color: black;
+    border-color: black;
+    width: 241px;
+    height: 58px;
+    border-radius: 21px;
+    font-size: 1.7rem;
 }
 .btn-primary:hover{
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 3px solid black;
+    color: black;
+}
+
+.btn-primary:focus{
+    background-color: rgb(131, 131, 131);
+    border-color: black;
+    border: 3px solid black;
+    color: black;
 }

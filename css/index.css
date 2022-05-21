@@ -147,7 +147,7 @@
 .advert {
     margin: auto;
     background-color: #0F0E0E;
-    height: 500px;
+    height: 686px;
     width: 1600px;
     box-shadow: 2px 6px 29px 13px #00000073;
 }
@@ -174,6 +174,7 @@ hr {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    padding-top: 43px;
 }
 
 .name p{
@@ -186,4 +187,25 @@ hr {
     height: 535px;
     width: 632px;
     background-size: cover;
+    margin-top: 77px;
+    margin-left: 90px;
 }
+
+.join {
+    padding-top: 98px;
+    width: 557px;
+    padding-bottom: 88px;
+}
+
+.join h1{
+    font-weight: 700;
+}
+.join p{
+    padding-top: 26px;
+    font-size: 1.25rem;
+}
+
+.join btn {
+    padding-top: 26px;
+}
+
