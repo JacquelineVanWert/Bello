@@ -1,0 +1,11 @@
+/* .btn{
+    color: white;
+    background-color: #0F0E0E;
+    margin-top: 280px;
+} */
+.btn-primary{
+    background-color: black;
+}
+.btn-primary:hover{
+    background-color: rgb(92, 92, 92);
+}
