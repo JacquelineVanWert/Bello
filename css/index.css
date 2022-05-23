@@ -147,7 +147,7 @@
 .advert {
     margin: auto;
     background-color: #0F0E0E;
-    height: 500px;
+    height: 686px;
     width: 1600px;
     box-shadow: 2px 6px 29px 13px #00000073;
 }
@@ -174,6 +174,25 @@ hr {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    padding-top: 43px;
+}
+
+.lessons {
+    background-color: black;
+    height: 493px;
+    width: 100%;
+}
+
+.lessons h1{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 27px;
+}
+
+.lessonsText {
+    justify-content: center;
 }
 
 .name p{
@@ -186,4 +205,140 @@ hr {
     height: 535px;
     width: 632px;
     background-size: cover;
+    margin-top: 77px;
+    margin-left: 90px;
 }
+
+.join {
+    padding-top: 98px;
+    width: 557px;
+    padding-bottom: 88px;
+}
+
+.join h1{
+    font-weight: 700;
+}
+.join p{
+    padding-top: 26px;
+    font-size: 1.25rem;
+}
+
+.join .btn {
+    margin-top: 26px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 187px;
+    padding-right: 187px;
+}
+
+.lessonsText {
+    padding-bottom: 23px;
+}
+
+.colorwheel {
+    background-image: url("../img/colorwheel.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.colorwheel:hover {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
+    url("../img/colorwheel.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.washing {
+    background-image: url("../img/washing2.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.washing:hover {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
+    url("../img/washing2.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.serum {
+    background-image: url("../img/serum2.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.serum:hover {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
+    url("../img/serum2.png");
+    height: 320px;
+    width: 399px;
+    background-size: cover;
+}
+
+.events h1 {
+    padding-top: 71px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.cardWrapper {
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.narsImg {
+    background-image: url("../img/nars.png");
+    height: 366px;
+    width: 459px;
+    background-size: cover;
+}
+
+.card img:hover {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
+}
+
+.card-body h5 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.card-body h4 {
+    font-size:1.25rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.eventsEnd {
+    padding-bottom: 70px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.quoteContainer {
+    height: 686px;
+    width: 100%;
+    background-color: black;
+}
+
