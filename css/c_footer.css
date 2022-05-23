@@ -4,3 +4,45 @@ footer{
     width: 100%;
     bottom: 0;
 }
+
+a {
+    color: white;
+}
+a:hover {
+    color: grey;
+}
+
+h5 {
+    color: white;
+    font-family: Abhaya Libre ExtraBold;
+}
+
+img {
+    height: 25px;
+}
+
+p {
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-size: 1.5rem;
+}
+
+.copyRight {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.year {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    font-size: 1.5 rem;
+}
+
+.footerNav li {
+    margin-top: 12px;
+}
+.footerIcon {
+    margin-right: 6px;
+}
