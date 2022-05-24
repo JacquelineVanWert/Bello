@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="./css/c_footer.css">
     <link rel="stylesheet" href="./css/c_nav.css">
     <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/c_footer.css">
     <title>Bello</title>
 
   </head>
-  <body>
+  <body class="signUp">
     
     <!-- Top Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-12">
@@ -28,24 +29,32 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto text-center justify-content-center col-md-8">
-              <a class="nav-link active" href="#">HAIR<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">HAIR<span class="sr-only">(current)</span></a>
               <a class="nav-link" href="#">MAKEUP</a>
               <a class="nav-link" href="#">SKIN</a>
               <a class="nav-link" href="#">NAILS</a>
               <a class="nav-link" href="#">ABOUT US</a>
             </div>
             <div class="login text-center justify-content-right col-md-2">
-              <a class="nav-link" href="#">LOG IN</a>
+              <a class="nav-link active" href="#">LOG IN</a>
             </div>
           </div>
     </div>
     </nav>
-    <section class="login container-fluid">
+    <section class="login">
       <div class="row">
         <div class="col-md-3"></div>
         <form class="col-md-3">
+          <p class="whiteColor text-center emailYes">Log in</p>
+          <button type="button" class="btn btn-secondary col-md-12">
+            <img src="../Bello/img/icons/facebook image.png" alt="FB">
+            Log in with Facebook
+          </button>
+          <button type="button" class="btn btn-info col-md-12">
+            <img src="../Bello/img/icons/google image.png" alt="GG">
+            Log in with Google
+          </button>
           <hr>
-          <p class="whiteColor text-center emailYes">Email Login</p>
           <div class="form-group">
             <label for="exampleInputEmail1" class="whiteColor">Email*</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -57,65 +66,58 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label whiteColor" for="exampleCheck1">Remember Me</label>
             </div>
-            <button type="submit" class="btn col-md-12">LOG IN</button>
+            <button type="button" class="btn btn-success col-md-12">Log in</button>
           </div>
         </form>
+        <div class="col-md-5 beauty">
+          <p class="whiteColor professional text-center">TAKE THE NEXT STEP<br> TO BECOME A BEAUTY<br> PROFESSIONAL</p>
+          <p class="whiteColor text-center sign">Starting at $15/month for all classes and sessions.</p>
+      </div>
     </div>
-  </section>
-<footer class="page-footer font-small blue pt-4">
-  <div class="container-fluid text-center text-md-left">
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 ">
+  <div class="container text-center text-md-left">
     <div class="row">
-      <hr class="clearfix w-100 d-md-none pb-3">
-      <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Explore</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+      <div class="col-md-5 copyRight">
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <p class="year"> @2022 </p> 
+        <p class="bello">Bello</p>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
         <h5 class="text-uppercase">ABOUT</h5>
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footerNav">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">Diversity, Equity & Inclusion</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">Careers</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="#!">Support</a>
           </li>
           <li>
-            <a href="#!">Link 4</a>
+            <a href="#!">Terms</a>
           </li>
+         
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
         <h5 class="text-uppercase">SOCIALS</h5>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footerNav">
           <li>
-            <a href="#!">Link 1</a>
+            <img class="footerIcon" src="/img/Instagram.png" alt="Instagram Icon">
+            <a href="#!">    Instagram</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <img class="footerIcon" src="/img/Facebook.png" alt="Facebook Icon">
+            <a href="#!">Facebook</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <img class="footerIcon" src="/img/Twitter.png" alt="Twitter Icon">
+            <a href="#!">Twitter</a>
           </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
+         
         </ul>
       </div>
     </div>

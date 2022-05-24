@@ -1,45 +1,13 @@
-.navbar-brand {
-    font-family: 'Ephesis', cursive;
-    font-size: 3.4rem;
-}
 
-.nav-link {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-left: 21px;
-    margin-right: 21px;
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.nav-link:hover {
-    color: rgba(0,0,0,.7);
-}
-
-footer{
-    background-color: black;
-    position:absolute;
-    width: 100%;
-    bottom: 0;
-}
-.hero {
-    height: 251px;
-    background-image: url(../img/herogif.gif);
-}
-body{
+.signUp{
     background-image: url(../img/Rectangle\ 16.png);
     background-size: cover;
     background-position: right top;
     background-attachment: fixed;
-    height: 100vh;
+    height: 80vh;
 }
 .whiteColor{
     color: white;
-}
-.btn{
-    color: white;
-    background-color: #0F0E0E;
-    margin-top: 280px;
 }
 .login{
     display: flex;
@@ -47,60 +15,45 @@ body{
     justify-content: center;
     height: 100%;
     min-height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-
 hr{
     border-top: 1px solid white;
 }
 .emailYes{
     font-size: x-large;
 }
-
-
-.cateText p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.7rem;
-    padding-left: 20px;
-    padding-right: 20px;
+.btn-secondary{
+    background-color:#4267B2;
+    padding: 10px;
+    text-align: center;
 }
-
-.advert {
-    margin: auto;
-    background-color: #0F0E0E;
-    height: 500px;
-    width: 1600px;
-    box-shadow: 2px 6px 29px 13px #00000073;
+.btn-success{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
 }
-
-.adText {
-    color: white;
-    padding-left: 92px;
-    padding-top: 177px;
-    width: 693px;
+.btn-info{
+    margin: 25px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
 }
-
-.adText h1 {
-    font-family: 'Abhaya Libre', serif;
-    font-weight: 600;
-    font-size: 3rem;
+.btn-info img{
+padding-right: 25px;
 }
-
-.adText p{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1.4rem;
-}
-
-.name p{
-    justify-content: flex-end;
-    font-style: italic;
-}
-
-.adPic{
-    background-image: url(../img/Group\ 28.png);
-    height: 535px;
-    width: 632px;
-    background-size: cover;
-}
-
+.btn-secondary img{
+    padding-right: 10px;
+ }
+ .professional{
+     font-size: 3rem;
+ }
+ .sign{
+    font-size: 1.5rem;
+ }
+ .beauty{
+     margin-top: 150px;
+ }

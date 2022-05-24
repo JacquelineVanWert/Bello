@@ -1,6 +1,50 @@
 footer{
     background-color: black;
-    position:absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0vh;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: grey;
+}
+
+h5 {
+    color: white;
+    font-family: Abhaya Libre ExtraBold;
+}
+
+.footerIcon {
+    height: 25px;
+}
+
+.bello{
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-size: 1.5rem;
+}
+
+.copyRight {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.year {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footerNav li {
+    margin-top: 12px;
+}
+.footerIcon {
+    margin-right: 6px;
 }
