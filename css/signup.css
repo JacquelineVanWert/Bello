@@ -4,19 +4,15 @@
     background-size: cover;
     background-position: right top;
     background-attachment: fixed;
-    height: 80vh;
 }
 .whiteColor{
     color: white;
 }
-.login{
+section.login{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
-    min-height: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    min-height: 80vh;
 }
 hr{
     border-top: 1px solid white;
@@ -54,6 +50,6 @@ padding-right: 25px;
  .sign{
     font-size: 1.5rem;
  }
- .beauty{
-     margin-top: 150px;
- }
+.emailPass{
+    margin-bottom: 20px;
+}
