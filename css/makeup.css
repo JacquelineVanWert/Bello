@@ -67,14 +67,17 @@ p {
     overflow-y: scroll;
 }
 
-.makeupcarousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.makeupCarousel .carousel-item {
     background-color: black;
-    min-height: 400px;
+    padding: 80px 40px;
 }
 
-.makeupcarousel .carousel-caption {
+.makeupCarousel .carousel-caption {
     position: unset;
+}
+
+.col2 {
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
