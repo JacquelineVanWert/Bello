@@ -1,6 +1,7 @@
 footer{
     background-color: black;
     width: 100%;
+    margin-left: 0px;
 }
 
 a {
@@ -20,7 +21,7 @@ h5 {
     height: 25px;
 }
 
-.bello {
+.bello{
     color: white;
     font-family: 'Ephesis', cursive;
     font-size: 1.5rem;

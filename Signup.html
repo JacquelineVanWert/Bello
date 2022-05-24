@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/c_footer.css">
     <link rel="stylesheet" href="./css/c_nav.css">
     <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/c_footer.css">
     <title>Bello</title>
 
   </head>
@@ -40,10 +41,10 @@
           </div>
     </div>
     </nav>
+
     <section class="login container-fluid">
-      <div class="row">
-        <div class="col-md-3"></div>
-        <form class="col-md-3">
+      <div class="row justify-content-center align-items-center">
+        <form class="col-lg-4 col-md-6">
           <p class="whiteColor text-center emailYes">Log in</p>
           <button type="button" class="btn btn-secondary col-md-12">
             <img src="../Bello/img/icons/facebook image.png" alt="FB">
@@ -55,24 +56,74 @@
           </button>
           <hr>
           <div class="form-group">
-            <label for="exampleInputEmail1" class="whiteColor">Email*</label>
+            <label for="exampleInputEmail1" class="whiteColor emailPass">Email*</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text whiteColor">We'll never share your email with anyone else.</small>
-            <label for="exampleInputPassword1" class="whiteColor">Password*</label>
+            <small id="emailHelp" class="form-text whiteColor emailPass">We'll never share your email with anyone else.</small>
+            <label for="exampleInputPassword1" class="whiteColor emailPass">Password*</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
             <a id="emailHelp" class="text-primary">Forgot Password?</a>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label whiteColor" for="exampleCheck1">Remember Me</label>
+              <label class="form-check-label whiteColor emailPass" for="exampleCheck1">Remember Me</label>
             </div>
             <button type="button" class="btn btn-success col-md-12">Log in</button>
           </div>
         </form>
-        <div class="col-md-5 beauty">
+        <div class="col-lg-5 col-md-6 beauty">
           <p class="whiteColor professional text-center">TAKE THE NEXT STEP<br> TO BECOME A BEAUTY<br> PROFESSIONAL</p>
           <p class="whiteColor text-center sign">Starting at $15/month for all classes and sessions.</p>
       </div>
     </div>
+    </section>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 ">
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-5 copyRight">
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <p class="year"> @2022 </p> 
+        <p class="bello">Bello</p>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">ABOUT</h5>
+
+        <ul class="list-unstyled footerNav">
+          <li>
+            <a href="#!">Diversity, Equity & Inclusion</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">Support</a>
+          </li>
+          <li>
+            <a href="#!">Terms</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">SOCIALS</h5>
+        <ul class="list-unstyled footerNav">
+          <li>
+            <img class="footerIcon" src="/img/Instagram.png" alt="Instagram Icon">
+            <a href="#!">    Instagram</a>
+          </li>
+          <li>
+            <img class="footerIcon" src="/img/Facebook.png" alt="Facebook Icon">
+            <a href="#!">Facebook</a>
+          </li>
+          <li>
+            <img class="footerIcon" src="/img/Twitter.png" alt="Twitter Icon">
+            <a href="#!">Twitter</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 <!-- Footer -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
