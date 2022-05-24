@@ -2,7 +2,8 @@ footer{
     background-color: black;
     position:absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0vh;
+    margin-left: 0px;
 }
 
 a {
@@ -21,7 +22,7 @@ img {
     height: 25px;
 }
 
-p {
+.bello{
     color: white;
     font-family: 'Ephesis', cursive;
     font-size: 1.5rem;
