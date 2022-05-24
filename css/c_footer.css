@@ -1,9 +1,9 @@
 footer{
     background-color: black;
-    position:absolute;
     width: 100%;
     bottom: 0vh;
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 a {
@@ -18,7 +18,7 @@ h5 {
     font-family: Abhaya Libre ExtraBold;
 }
 
-img {
+.footerIcon {
     height: 25px;
 }
 
@@ -38,7 +38,8 @@ img {
 .year {
     font-family: 'Times New Roman', Times, serif;
     margin-right: 10px;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .footerNav li {
