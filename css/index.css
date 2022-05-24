@@ -16,9 +16,15 @@
     color: rgba(0,0,0,.7);
 }
 
+.nav-link img {
+    height: 47px;
+    width: 53px;
+}
+
 .hero {
     height: 251px;
     background-image: url(../img/herogif.gif);
+    width: 100%;
 }
 
 .heroText {
@@ -56,7 +62,7 @@
 
 .hairPic{
     background-image: url(../img/hair2.png);
-    width: 253px;
+    width: 100%;
     height: 425px;
     background-size: cover;
 }
@@ -65,14 +71,12 @@
     background-image: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
      url(../img/hair2.png);
-    width: 253px;
-    height: 425px;
     background-size: cover;
 }
 
 .makeupPic{
     background-image: url(../img/makeup1.png);
-    width: 253px;
+    width: 100%;
     height: 425px;
     background-size: cover;
 }
@@ -81,14 +85,12 @@
     background-image: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
     url(../img/makeup1.png);
-    width: 253px;
-    height: 425px;
     background-size: cover;
 }
 
 .skinPic{
     background-image: url(../img/skin1.png);
-    width: 253px;
+    width: 100%;
     height: 425px;
     background-size: cover;
 }
@@ -97,14 +99,12 @@
     background-image: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
     url(../img/skin1.png);
-    width: 253px;
-    height: 425px;
     background-size: cover;
 }
 
 .nailsPic{
     background-image: url(../img/nails1.png);
-    width: 253px;
+    width: 100%;
     height: 425px;
     background-size: cover;
 }
@@ -113,8 +113,6 @@
     background-image: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
     url(../img/nails1.png);
-    width: 253px;
-    height: 425px;
     background-size: cover;
 }
 
@@ -124,9 +122,13 @@
     padding-bottom: 95px;
 }
 
+.cateImg {
+    margin-bottom: 20px;
+}
+
 .cateText {
     color: white;
-    margin-top: 280px;
+    margin-top: auto;
 }
 
 .cateText h1 {
@@ -364,11 +366,5 @@ hr {
 }
 
 .hairTools {
-    background-image: url('../img/barber-set-scissors-hair-dryer-comb-free-svg-file\ 1.png');
-    height: 489px;
-    width: 367px;
-    background-size: cover;
-    margin-top: 69px;
-    margin-left: 155px;
-    margin-right: 21px;
+    width: 100%;
 }
