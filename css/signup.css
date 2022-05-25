@@ -24,11 +24,13 @@ hr{
     background-color:#4267B2;
     padding: 10px;
     text-align: center;
+    border-color:#4267B2;
 }
 .btn-success{
-    background-color: gray;
+    background-color: #0F0E0E;
     padding: 10px;
     text-align: center;
+    border-color:#0F0E0E;
 }
 .btn-info{
     margin: 25px;
@@ -37,6 +39,7 @@ hr{
     background-color: white;
     color: black;
     text-align: center;
+    border-color: white;
 }
 .btn-info img{
 padding-right: 25px;
@@ -52,4 +55,14 @@ padding-right: 25px;
  }
 .emailPass{
     margin-bottom: 20px;
+}
+.btn-success:hover{
+    background-color: #000000;
+    border-color: #0F0E0E;
+}
+.btn-info:hover{
+    background-color: lightgray;
+}
+.btn-secondary:hover{
+    background-color: #2b4f97;
 }

@@ -42,6 +42,7 @@ h1 {
 
 h2 {
     font-family: 'Inter', sans-serif;
+    color: black;
 }
 
 h5 {
@@ -74,7 +75,7 @@ p {
 
 .makeupCarousel .carousel-item {
     background-color: black;
-    padding: 80px 40px;
+    padding: 60px 20px;
 }
 
 .makeupCarousel .carousel-caption {
