@@ -68,7 +68,7 @@ p {
     background-color: black;
 }
 
-.categories {
+.categoriesCourses {
     max-height: 380px;
     overflow-y: scroll;
 }

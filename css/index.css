@@ -327,8 +327,8 @@ h2{
 
 h3{
     color: black;
-    font-weight: 600;
-    font-size: 4rem;
+    font-weight: 400;
+    font-size: 3rem;
     font-family: 'Abhaya Libre', serif;
 }
 
@@ -344,6 +344,12 @@ h3{
 
 @media screen and (max-width:600px){
     h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    h3{
         font-size: 2rem;
     }
 }
