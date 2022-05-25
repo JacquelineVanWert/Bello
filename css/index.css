@@ -27,28 +27,6 @@
     width: 100%;
 }
 
-.heroText {
-    color: white;
-    font-size: 2.5rem;
-    width: 415px;
-    margin-right: 291px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.heroText p {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 186px;
-}
-
-.heroButton {
-    font-size: 2rem;
-    background-color: #484848;
-    height: 62px;
-    width: 280px;
-}
-
 .text p{
     font-family: 'Abhaya Libre', serif;
     font-weight: 600;
@@ -181,19 +159,15 @@ hr {
 
 .lessons {
     background-color: black;
-    height: 493px;
     width: 100%;
 }
 
-.lessons h1{
+.lessonsText{
     font-family: 'Abhaya Libre', serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 2.5rem;
     color: white;
     padding-top: 27px;
-}
-
-.lessonsText {
     justify-content: center;
 }
 
@@ -213,7 +187,6 @@ hr {
 
 .join {
     padding-top: 98px;
-    width: 557px;
     padding-bottom: 88px;
 }
 
@@ -231,21 +204,14 @@ hr {
     margin-top: 26px;
 }
 
-.videos {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 187px;
-    padding-right: 187px;
-}
-
 .lessonsText {
     padding-bottom: 23px;
 }
 
 .colorwheel {
     background-image: url("../img/colorwheel.png");
-    height: 320px;
-    width: 399px;
+    height: 390px;
+    width: 100%;
     background-size: cover;
 }
 
@@ -253,15 +219,13 @@ hr {
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
     url("../img/colorwheel.png");
-    height: 320px;
-    width: 399px;
     background-size: cover;
 }
 
 .washing {
     background-image: url("../img/washing2.png");
-    height: 320px;
-    width: 399px;
+    height: 390px;
+    width: 100%;
     background-size: cover;
 }
 
@@ -269,15 +233,13 @@ hr {
     background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
     url("../img/washing2.png");
-    height: 320px;
-    width: 399px;
     background-size: cover;
 }
 
 .serum {
     background-image: url("../img/serum2.png");
-    height: 320px;
-    width: 399px;
+    height: 390px;
+    width: 100%;
     background-size: cover;
 }
 
@@ -285,9 +247,16 @@ hr {
     background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)),
     url("../img/serum2.png");
-    height: 320px;
-    width: 399px;
     background-size: cover;
+}
+
+.lessonVid {
+    margin: 1%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .events h1 {
@@ -353,18 +322,25 @@ hr {
     font-family: 'Abhaya Libre', serif;
 }
 
-.quote h2{
+h2{
     color: white;
-    
     font-weight: 600;
     font-size: 4rem;
+    font-family: 'Abhaya Libre', serif;
 }
 
-.quote p {
+.name {
     color: white;
     font-size: 2.4rem;
+    font-family: 'Abhaya Libre', serif;
 }
 
 .hairTools {
     width: 100%;
+}
+
+@media screen and (max-width:600px){
+    h2{
+        font-size: 2rem;
+    }
 }
