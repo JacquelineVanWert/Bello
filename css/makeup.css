@@ -30,6 +30,11 @@
     padding: .1%;
 }
 
+.nav-link img {
+    height: 47px;
+    width: 53px;
+}
+
 h1 {
     font-family: 'Abhaya Libre', serif;
     color: white;
