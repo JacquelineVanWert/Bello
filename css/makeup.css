@@ -76,6 +76,7 @@ p {
 .makeupCarousel .carousel-item {
     background-color: black;
     padding: 60px 20px;
+    min-height:290px
 }
 
 .makeupCarousel .carousel-caption {
