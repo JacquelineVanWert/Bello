@@ -179,6 +179,10 @@ hr {
     height: auto;
 }
 
+.header {
+    max-width: 400px;
+}
+
 .join {
     padding-top: 98px;
     padding-bottom: 88px;
