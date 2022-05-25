@@ -126,17 +126,13 @@
 
 .advert {
     margin: auto;
-    background-color: #0F0E0E;
-    height: 686px;
-    width: 1600px;
     box-shadow: 2px 6px 29px 13px #00000073;
 }
 
 .adText {
     color: white;
-    padding-left: 92px;
-    padding-top: 177px;
-    width: 693px;
+    width: 70%;
+    
 }
 
 .adText h1 {
@@ -177,12 +173,12 @@ hr {
 }
 
 .adPic{
-    background-image: url(../img/Group\ 28.png);
-    height: 535px;
-    width: 632px;
-    background-size: cover;
-    margin-top: 77px;
-    margin-left: 90px;
+    /* background-image: url(../img/Group\ 28.png);
+    height: auto;
+    width: 100%;
+    background-size: cover; */
+    max-width: 100%;
+    height: auto;
 }
 
 .join {
