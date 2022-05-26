@@ -1,0 +1,90 @@
+.container-fluid  {
+    background-color: black;
+    display: flex;
+    padding: 1%;
+}
+
+.container {
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row3 {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.img-fluid {
+    padding: .1%;
+}
+
+.nav-link img {
+    height: 47px;
+    width: 53px;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h6 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.categoriesCourses {
+    max-height: 380px;
+    overflow-y: scroll;
+}
+
+.makeupCarousel .carousel-item {
+    background-color: black;
+    padding: 60px 20px;
+    min-height:290px
+}
+
+.makeupCarousel .carousel-caption {
+    position: unset;
+}
+
+.col2 {
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
