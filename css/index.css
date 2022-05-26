@@ -104,6 +104,10 @@
     margin-bottom: 20px;
 }
 
+.cateImg:hover {
+    cursor: pointer;
+}
+
 .cateText {
     color: white;
     margin-top: auto;
