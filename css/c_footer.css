@@ -47,3 +47,12 @@ h5 {
 .footerIcon {
     margin-right: 6px;
 }
+
+@media only screen and (max-width:780px){
+    .copyRight {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: center
+    }
+}
